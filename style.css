@@ -1,0 +1,66 @@
+h1{
+    color:aqua;
+    background-color: black;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    position:relative;
+}
+p{
+    color:aqua;
+}
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+nav{
+    padding: 30px 50px 0 0;
+}
+nav > a{
+    color:aqua;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+.imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+@media screen and (max-width:900px){
+    header{
+        background-position: center;
+    }
+
+    .contenedor{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor3{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .objeto-contenedor{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
